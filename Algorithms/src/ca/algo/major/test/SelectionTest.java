@@ -24,7 +24,6 @@ public class SelectionTest {
 //                    indexOfMinNum = k;
 //                }
 //            }
-//
 //            int temp;
 //            temp = arr[i];
 //            arr[i] = arr[indexOfMinNum];
