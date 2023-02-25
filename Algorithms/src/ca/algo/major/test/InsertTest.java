@@ -6,9 +6,9 @@ import java.util.Arrays;
 
 public class InsertTest {
     public static void main(String[] args) {
-        int[] arr = {4,3,2,10,12,1,5,6};
+        int[] arr = {4,3,2,10,12,1,5,6,5};
         Insert.Sort(arr);
-        //InsertSort(arr);
+        //    InsertSort(arr);
         System.out.println(Arrays.toString(arr));
     }
 
