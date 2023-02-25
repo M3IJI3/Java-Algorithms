@@ -8,7 +8,7 @@ public class InsertTest {
     public static void main(String[] args) {
         int[] arr = {4,3,2,10,12,1,5,6,5};
         Insert.Sort(arr);
-        //    InsertSort(arr);
+           // InsertSort(arr);
         System.out.println(Arrays.toString(arr));
     }
 
@@ -18,11 +18,11 @@ public class InsertTest {
 //        {
 //            for(int k = i ; k > 0 ; k--)
 //            {
-//                if(arr[k-1] > arr[k])
+//                if(arr[k] < arr[k-1])
 //                {
-//                    int temp = arr[k-1];
-//                    arr[k-1] = arr[k];
-//                    arr[k] = temp;
+//                    int temp = arr[k];
+//                    arr[k] = arr[k-1];
+//                    arr[k-1] = temp;
 //                }
 //                else
 //                {
